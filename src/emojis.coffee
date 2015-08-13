@@ -30,6 +30,9 @@ module.exports = (robot) ->
 
     matchingEmojiCharacters = emojiCharactersForKeyword(keyword)
 
+    if !matchingEmojiCharacters.length
+      return msg.send "No emoji found for `#{keyword}`. Try finding your inner #{keyword}."
+
     if isAll
       msg.send(matchingEmojiCharacters.join(' '))
     else
