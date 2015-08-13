@@ -5,7 +5,8 @@
 #   None
 #
 # Commands:
-#   hubot emoji <keywoard> - List emojis that match that keyword.
+#   hubot emoji <keyword> - List a random emoji that matches keyword.
+#   hubot emoji all <keyword> - List all emojis that match keyword.
 #
 # Author:
 # Jeremy Mack @mutewinter
